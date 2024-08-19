@@ -1,0 +1,16 @@
+{
+  "name": "responsive-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./css/input.css -o ./dist/output.css",
+    "watch": "tailwind -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
